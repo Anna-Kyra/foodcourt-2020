@@ -1,0 +1,936 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d4b777;
+}
+
+
+.container {
+    background-color: #d4b777;
+    overflow: hidden;
+}
+
+.content {
+    width: 800px;
+    height: 1280px;
+    max-height: 1280px;
+    background-color: #f2dda6;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*begin welkomspagina*/
+.content h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #503C21;
+    text-shadow: 0 10px 0 #b5944b;
+    z-index: 50;
+    transform: translate(0, 265px);
+    transition: ease-out 0.3s;
+}
+
+.content h2 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    color: #503C21;
+    text-shadow: 0 10px 0 #b5944b;
+    z-index: 50;
+    transform: translate(0, 390px);
+    transition: ease-out 0.3s;
+}
+
+.content h3 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 155px;
+    color: #436742;
+    text-shadow: 0 10px 0 #b5944b;
+    z-index: 50;
+    transform: translate(0, 450px);
+    transition: ease-out 0.3s;
+}
+
+.content h4 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 155px;
+    color: #BC2E2A;
+    text-shadow: 0 10px 0 #b5944b;
+    z-index: 50;
+    transform: translate(0, 590px);
+    transition: ease-out 0.3s;
+}
+
+.content a {
+    position: absolute;
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #3E5234;
+    background-color: #4b8449;
+    padding: 10px;
+    margin: 20px;
+    border: solid 9px #45623c;
+    border-radius: 25px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: ease-out 0.8s;
+}
+
+.deksel {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 100px 0 40px 0;
+    transition: ease-out 0.4s;
+}
+
+.pan_lint {
+    width: 725px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.pan_achterkant {
+    position: absolute;
+    text-align: center;
+    transform: translate(115px, 762px);
+    z-index: 1;
+    width: 490px;
+}
+
+.pan_voorkant {
+    position: absolute;
+    text-align: center;
+    transform: translate(62px, 780px);
+    width: 600px;
+    z-index: 100;
+}
+
+.pan_onderkant {
+    position: absolute;
+    text-align: center;
+    transform: translate(65px, 780px);
+    width: 593.4px;
+    padding-left: 26px;
+    padding-top: 250px;
+    z-index: 100;
+
+}
+
+.onderdelen_pan {
+    transition: ease-out 0.4s;
+    position: absolute;
+}
+
+.lint_klik_hier {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translate(0, 780px);
+    padding-top: 150px;
+    width: 765px;
+    padding-right: 5px;
+    z-index: 100;
+    transition: ease-out 0.8s;
+}
+
+.gehaktbal {
+    width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(80px, 230px);
+    z-index: 50;
+    transition: ease-out 0.3s;
+}
+
+.gehaktbal2 {
+    width: 90px;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(620px, 330px);
+    z-index: 50;
+    transition: ease-out 0.3s;
+}
+
+.gehaktbal3 {
+    width: 85px;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(250px, 410px);
+    z-index: 50;
+    transition: ease-out 0.3s;
+}
+
+/*eind welkomspagina*/
+
+/*begin pagina 1*/
+.pan_pagina1 {
+    position: absolute;
+
+}
+
+.remove_pointer {
+    cursor: auto;
+}
+
+.in_pan {
+    z-index: 50;
+    font-size: 10px;
+    transition: ease-out 0.5s;
+}
+
+.deksel_rotate1 {
+    transform: translate(130px, 0) rotate(20deg);
+    transition: 800ms;
+}
+
+.boven_pagina {
+    transform: translate(0, -400px);
+    transition: ease-out 1.5s;
+}
+
+.pagina1 {
+    transition: ease-out 1.5s;
+}
+
+.pagina1 nav {
+    position: relative;
+}
+
+.pagina1 ul {
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.pagina1 .nav1 {
+    position: absolute;
+    padding: 0 30px;
+    margin: 0;
+    font-size: 80px;
+    background-color: #4b8449;
+    border: solid 9px #3E5234;
+    border-radius: 25px;
+    color: #3E5234;
+    display: inline-block;
+    transition: ease-out 0.3s;
+    transform: translate(20px, 20px);
+}
+
+.pagina1 .nav2 {
+    position: absolute;
+    padding: 0 25px;
+    margin: 0;
+    font-size: 80px;
+    background-color: #f2dda6;
+    border: solid 9px #9B7334;
+    border-radius: 25px;
+    color: #9B7334;
+    display: inline-block;
+    transition: ease-out 0.3s;
+    transform: translate(140px, 20px);
+}
+
+.pagina1 .nav3 {
+    position: absolute;
+    padding: 0 25px 0 24px;
+    margin: 0;
+    font-size: 80px;
+    background-color: #E94933;
+    border: solid 9px #BC2E2A;
+    border-radius: 25px;
+    color: #BC2E2A;
+    display: inline-block;
+    transition: ease-out 0.3s;
+    transform: translate(265px, 20px);
+}
+
+.pagina1 .nav4 {
+    position: absolute;
+    padding: 0 25px 0 22px;
+    margin: 0;
+    font-size: 80px;
+    background-color: #4b8449;
+    border: solid 9px #3E5234;
+    border-radius: 25px;
+    color: #3E5234;
+    display: inline-block;
+    transition: ease-out 0.3s;
+    transform: translate(395px, 20px);
+}
+
+.pagina1 .nav5 {
+    position: absolute;
+    padding: 0 25px 0 25px;
+    margin: 0;
+    font-size: 80px;
+    background-color: #f2dda6;
+    border: solid 9px #9B7334;
+    border-radius: 25px;
+    color: #9B7334;
+    display: inline-block;
+    transition: ease-out 0.3s;
+    transform: translate(525px, 20px);
+}
+
+.pagina1 .nav6 {
+    position: absolute;
+    padding: 0 25px 0 25px;
+    margin: 0;
+    font-size: 80px;
+    background-color: #E94933;
+    border: solid 9px #BC2E2A;
+    border-radius: 25px;
+    color: #BC2E2A;
+    display: inline-block;
+    transition: ease-out 0.3s;
+    transform: translate(655px, 20px);
+}
+
+.navigatie {
+    transition: ease-out 0.8s;
+}
+
+.nav_opacity {
+    opacity: 0.5;
+}
+
+.lint_pasta {
+    position: absolute;
+    width: 650px;
+    margin-left: 75px;
+    margin-top: 150px;
+    transition: ease-out 0.9s;
+}
+
+.pasta_soort {
+    width: 680px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translate(0, 900px);
+    transition: ease-out 0.8s;
+}
+
+.macaroni {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.vlinder {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.penne {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.opacity_pasta {
+    opacity: 0.5;
+}
+
+
+
+.interactie_macaroni {
+    cursor: pointer;
+}
+
+.pijlen {
+    width: 680px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translate(0, 1130px);
+    transition: ease-out 0.8s;
+}
+
+.rode_pijl {
+    width: 100px;
+    margin-right: 230px;
+    cursor: pointer;
+}
+
+.groene_pijl {
+    width: 100px;
+    margin-left: 230px;
+    opacity: 0.5;
+    transition: ease-out 0.3s;
+}
+
+.onder_pagina {
+    transform: translate(0, 1300px);
+    position: relative;
+}
+
+/*begin pagina 1.5*/
+.interactie_groenepijl1 {
+    width: 100px;
+    margin-left: 230px;
+    cursor: pointer;
+    opacity: 1;
+    visibility: hidden;
+}
+
+.pan_macaroni {
+    width: 300px;
+    position: absolute;
+    z-index: 50;
+    transform: translate(100px, 430px);
+    transition: ease-out 0.8s;
+}
+
+.pan_macaroni_klein {
+    width: 0;
+    transition: ease-out 0.4s;
+    transform: translate(200px, 500px);
+}
+
+/*begin pagina 1 / 1.5*/
+/*begin pagina2*/
+.lint_deeg {
+    position: absolute;
+    width: 650px;
+    margin-left: 75px;
+    margin-top: 150px;
+    transition: ease-out 0.9s;
+}
+
+.groene_pijl2 {
+    position: absolute;
+    transform: translate(-330px, 0);
+    width: 100px;
+    margin-left: 230px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.deeg_soort {
+    width: 680px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translate(0, 900px);
+    transition: ease-out 0.3s;
+}
+
+.tarwe {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.interactie_tarwe {
+    cursor: pointer;
+}
+
+.volkoren {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.spinazie {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+
+
+/*begin pagina 2.5*/
+.pan_macaroni_geel {
+    width: 300px;
+    position: absolute;
+    z-index: 50;
+    transform: translate(100px, 430px);
+    transition: ease-out 0.3s;
+
+}
+
+.groene_pijl3 {
+    position: absolute;
+    transform: translate(-330px, 0);
+    width: 100px;
+    margin-left: 230px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*eind pagina 2 / 2.5*/
+/*begin pagina 3*/
+.lint_saus {
+    position: absolute;
+    width: 650px;
+    margin-left: 75px;
+    margin-top: 150px;
+    transition: ease-out 0.9s;
+}
+
+.saus_soort {
+    width: 680px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translate(0, 900px);
+    transition: ease-out 0.3s;
+}
+
+.rood {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.groen {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.wit {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+/*begin pagina 3.5*/
+.groene_pijl4 {
+    position: absolute;
+    transform: translate(-330px, 0);
+    width: 100px;
+    margin-left: 230px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.pan_rode_saus {
+    width: 430px;
+    position: absolute;
+    z-index: 50;
+    transform: translate(150px, 300px);
+    transition: ease-out 0.4s;
+}
+
+.pan_rode_saus_klein {
+    width: 0;
+    transition: ease-out 0.4s;
+    transform: translate(400px, 480px);
+}
+
+.deksel_rotate2 {
+    transform: translate(180px, 5px) rotate(45deg);
+    transition: 800ms;
+}
+
+/*eind pagina 3 / 3.5*/
+/*begin pagina 4*/
+
+.lint_topping {
+    position: absolute;
+    width: 650px;
+    margin-left: 75px;
+    margin-top: 150px;
+    transition: ease-out 0.9s;
+}
+
+.topping_soort {
+    width: 680px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translate(0, 900px);
+    transition: ease-out 0.3s;
+}
+
+.gehakt {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.interactie_gehakt {
+    cursor: pointer;
+}
+
+.tonijn {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+.mozzarella {
+    width: 200px;
+    margin: 0 10px;
+    transition: ease-out 0.3s;
+}
+
+/*begin pagina 4.5*/
+.groene_pijl5 {
+    position: absolute;
+    transform: translate(-330px, 0);
+    width: 100px;
+    margin-left: 230px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.deksel_rotate3 {
+    transform: translate(280px, 50px) rotate(60deg);
+    transition: 800ms;
+}
+
+.pan_gehakt {
+    width: 210px;
+    position: absolute;
+    z-index: 50;
+    transform: translate(320px, 280px);
+    transition: ease-out 0.6s;
+}
+
+.pan_gehakt_klein {
+    width: 0;
+    transition: ease-out 0.6s;
+    transform: translate(450px, 350px);
+}
+
+/*eind pagina 4 / 4.5*/
+/*begin pagina 5*/
+.lint_controleer {
+    position: absolute;
+    width: 650px;
+    margin-left: 75px;
+    margin-top: 150px;
+    transition: ease-out 0.9s;
+}
+
+.pagina5 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 720px;
+    text-transform: uppercase;
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    transform: translate(0, 900px);
+    transition: ease-out 0.3s;
+}
+
+.pagina5 .macaroni_text_nummer {
+    text-align: left;
+    position: absolute;
+    padding: 0 20px;
+    background-color: #4b8449;
+    border: solid 9px #3E5234;
+    border-radius: 25px;
+    color: #3E5234;
+}
+
+.pagina5 .macaroni_text {
+    text-align: left;
+    position: absolute;
+    padding: 0 20px 0 83px;
+    background-color: #4b8449;
+    border: solid 9px #3E5234;
+    border-radius: 25px;
+    color: #3E5234;
+}
+
+.pagina5 .tarwe_text_nummer {
+    text-align: left;
+    position: absolute;
+    padding: 0 20px;
+    background-color: #f2dda6;
+    border: solid 9px #9B7334;
+    border-radius: 25px;
+    color: #9B7334;
+    margin-left: 415px;
+}
+
+.pagina5 .tarwe_text {
+    text-align: left;
+    position: absolute;
+    margin-left: 415px;
+    padding: 0 20px 0 83px;
+    background-color: #f2dda6;
+    border: solid 9px #9B7334;
+    border-radius: 25px;
+    color: #9B7334;
+}
+
+.pagina5 .rood_text_nummer {
+    text-align: left;
+    position: absolute;
+    padding: 0 20px;
+    background-color: #E94933;
+    border: solid 9px #BC2E2A;
+    border-radius: 25px;
+    color: #BC2E2A;
+    margin-top: 100px;
+}
+
+.pagina5 .rood_text {
+    text-align: left;
+    position: absolute;
+    margin-top: 100px;
+    padding: 0 20px 0 83px;
+    background-color: #E94933;
+    border: solid 9px #BC2E2A;
+    border-radius: 25px;
+    color: #BC2E2A;
+}
+
+.pagina5 .gehakt_text_nummer {
+    text-align: left;
+    position: absolute;
+    padding: 0 20px;
+    background-color: #4b8449;
+    border: solid 9px #3E5234;
+    border-radius: 25px;
+    color: #3E5234;
+    margin-top: 100px;
+    margin-left: 415px;
+}
+
+.pagina5 .gehakt_text {
+    text-align: left;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 415px;
+    padding: 0 20px 0 83px;
+    background-color: #4b8449;
+    border: solid 9px #3E5234;
+    border-radius: 25px;
+    color: #3E5234;
+}
+
+.groene_pijl6 {
+    position: absolute;
+    transform: translate(-330px, 0);
+    width: 100px;
+    margin-left: 230px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*eind pagina 5*/
+/*begin pagina 6*/
+.lint_geniet {
+    position: absolute;
+    width: 650px;
+    margin-left: 75px;
+    margin-top: 150px;
+    transition: ease-out 0.9s;
+}
+
+.eindproduct {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 700px;
+    transform: translate(0, 430px);
+    transition: ease-out 2s;
+}
+
+
+.eindproduct_naam {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 600px;
+    text-transform: uppercase;
+    font-family: fatfrank, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    transform: translate(0, 820px);
+    transition: ease-out 1.8s;
+}
+
+.pagina6 .eindproduct_naam_text {
+    position: absolute;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #E94933;
+    border: solid 9px #BC2E2A;
+    border-radius: 25px;
+    color: #BC2E2A;
+    transition: ease-out 1.8s;
+}
+
+.onder_pagina {
+    transform: translate(0, 1400px);
+    transition: ease-out 0.8s;
+    position: relative;
+}
+
+.onder_pagina_lint {
+    transform: translate(0, 1400px);
+    transition: ease-out 0.8s;
+    position: relative;
+}
+
+.deksel_no_rotate {
+    transform: rotate(-60deg);
+}
+
+.rode_pijl1_5 {
+    width: 100px;
+    transform: translate(-335px, 0);
+    cursor: pointer;
+    position: absolute;
+}
+
+.rode_pijl2 {
+    width: 100px;
+    transform: translate(-335px, 0);
+    cursor: pointer;
+    position: absolute;
+}
+
+.rode_pijl2_5 {
+    width: 100px;
+    transform: translate(-335px, 0);
+    cursor: pointer;
+    position: absolute;
+}
+
+.rode_pijl3 {
+    width: 100px;
+    transform: translate(-335px, 0);
+    cursor: pointer;
+    position: absolute;
+}
+
+.rode_pijl3_5 {
+    width: 100px;
+    transform: translate(-335px, 0);
+    cursor: pointer;
+    position: absolute;
+}
+
+.rode_pijl4 {
+    width: 100px;
+    transform: translate(-335px, 0);
+    cursor: pointer;
+    position: absolute;
+}
+
+.rode_pijl4_5 {
+    width: 100px;
+    transform: translate(-335px, 0);
+    cursor: pointer;
+    position: absolute;
+}
+
+.rode_pijl5 {
+    width: 100px;
+    transform: translate(-335px, 0);
+    cursor: pointer;
+    position: absolute;
+}
+
+.hidden_pasta {
+    opacity: 0;
+    visibility: hidden;
+    transition: ease-out 0.3s;
+}
+
+.klassenpagina2 {
+    transform: translate(450px, 1150px);
+    margin: 0;
+    transition: ease-out 2s;
+    position: absolute;
+}
